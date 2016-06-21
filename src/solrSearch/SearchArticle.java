@@ -46,6 +46,7 @@ public class SearchArticle extends Exception {
 			// 设置符合条件的第一个话题对象
 			query.setStart(0);
 			query.setRows(1);
+			
 
 			// 调用Server的方法查询索引库
 			QueryResponse response = solr.query(query);
